@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ujian Sekolah 2024</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Ujian Sekolah 2024</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#jadwal">Jadwal Ujian</a></li>
+                    <li><a href="#materi">Materi Ujian</a></li>
+                    <li><a href="#hasil">Hasil Ujian</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Selamat Datang di Ujian Sekolah 2024</h2>
+            <p>Persiapkan dirimu dengan informasi terbaru mengenai jadwal, materi, dan hasil ujian sekolah.</p>
+            <a href="#jadwal" class="btn">Lihat Jadwal Ujian</a> <!-- Tombol interaktif -->
+        </div>
+    </section>
+
+    <!-- Jadwal Ujian Section -->
+    <section id="jadwal" class="jadwal">
+        <div class="container">
+            <h2>Jadwal Ujian</h2>
+            <table>
+                <tr>
+                    <th>Tanggal</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Waktu</th>
+                </tr>
+                <tr>
+                    <td>5 Desember 2024</td>
+                    <td>Matematika</td>
+                    <td>08:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>6 Desember 2024</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>08:00 - 10:00</td>
+                </tr>
+                <tr>
+                    <td>7 Desember 2024</td>
+                    <td>Bahasa Inggris</td>
+                    <td>08:00 - 10:00</td>
+                </tr>
+            </table>
+            <a href="#materi" class="btn">Lihat Materi Ujian</a> <!-- Tombol interaktif -->
+        </div>
+    </section>
+
+    <!-- Materi Ujian Section -->
+    <section id="materi" class="materi">
+        <div class="container">
+            <h2>Materi Ujian</h2>
+            <ul>
+                <li><a href="#">Matematika - Aljabar</a></li>
+                <li><a href="#">Bahasa Indonesia - Pemahaman Bacaan</a></li>
+                <li><a href="#">Bahasa Inggris - Rivew teks</a></li>
+                <li><a href="#">IPA - Genetik</a></li>
+            </ul>
+            <a href="#hasil" class="btn">Lihat Hasil Ujian</a> <!-- Tombol interaktif -->
+        </div>
+    </section>
+
+    <!-- Hasil Ujian Section -->
+    <section id="hasil" class="hasil">
+        <div class="container">
+            <h2>Hasil Ujian</h2>
+            <p>Hasil ujian akan diumumkan setelah ujian selesai. Silakan cek kembali setelah ujian dilakukan.</p>
+            <a href="#kontak" class="btn">Kontak Kami</a> <!-- Tombol interaktif -->
+        </div>
+    </section>
+
+    <!-- Kontak Section -->
+    <section id="kontak" class="kontak">
+        <div class="container">
+            <h2>Kontak Kami</h2>
+            <p>Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk menghubungi kami.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 sdn cangkan.Gavra Haitsar.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk interaksi -->
+    <script>
+        // Efek animasi untuk tombol saat diklik
+        const buttons = document.querySelectorAll('.btn');
+        buttons.forEach(button => {
+            button.addEventListener('click', function() {
+                alert("Anda mengklik tombol " + this.innerText);
+            });
+        });
+    </script>
+</body>
+</html>

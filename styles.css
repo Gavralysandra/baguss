@@ -1,0 +1,229 @@
+/* Reset semua margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container utama */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #1e3d58;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1519710164239-1e3140e6b6e1');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #1e3d58;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #3e5c77;
+}
+
+/* Jadwal Ujian Section */
+.jadwal {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.jadwal h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1e3d58;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #1e3d58;
+    color: #fff;
+}
+
+.jadwal .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #1e3d58;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.jadwal .btn:hover {
+    background-color: #3e5c77;
+}
+
+/* Materi Ujian Section */
+.materi {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+}
+
+.materi h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #1e3d58;
+    margin-bottom: 20px;
+}
+
+.materi ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.materi ul li {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.materi ul li a {
+    color: #1e3d58;
+    text-decoration: none;
+}
+
+.materi ul li a:hover {
+    text-decoration: underline;
+}
+
+.materi .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #1e3d58;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.materi .btn:hover {
+    background-color: #3e5c77;
+}
+
+/* Hasil Ujian Section */
+.hasil {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hasil h2 {
+    font-size: 2.5em;
+    color: #1e3d58;
+    margin-bottom: 20px;
+}
+
+.hasil p {
+    font-size: 1.5em;
+}
+
+.hasil .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #1e3d58;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.hasil .btn:hover {
+    background-color: #3e5c77;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3d58;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+}
